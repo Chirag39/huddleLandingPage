@@ -1,0 +1,144 @@
+div.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+div.col{
+    padding-left: 0;
+    padding-right: 0;
+}
+div.firstBlock{
+    background-color: hsl(193, 100%, 96%);
+    background-image: url("./images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:48em) {
+    div.firstBlock{
+        background-image: url("./images/bg-hero-mobile.svg");
+    }
+}
+.nav{
+    padding:3rem 0;
+    margin-inline: 5%;
+}
+
+.tryButton{
+    padding:1px 10px;
+    color:black;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 35px;
+    box-shadow: 1px 1px 5px 3px rgba(77, 77, 77, 0.2);
+    font-family: 'Poppins',sans-serif;
+    margin-left: 5%; 
+}
+.tryButton:hover{
+    color:grey;
+    cursor: pointer;
+}
+div.content{
+    padding-left:7%;
+}
+.content h1{
+    color:black;
+    font-family: 'Poppins';
+    padding-bottom: 1rem;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.content p{
+    color:rgb(0, 0, 0);
+    font-family:'Open Sans';
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.content .btn{
+    color:white;
+    font-weight:500;
+    background-color: hsl(322, 100%, 66%);
+    padding: 3% 15%;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 3px rgba(77, 77, 77, 0.2);
+    margin-bottom: 3rem;
+}
+@media screen and (max-width:48em) {
+    #button1{
+        margin-left: 13%;
+    }  
+}
+.content .btn:hover{
+    background-color:hsl(322, 100%, 74%); 
+    color: white;
+}
+#card h3{
+    font-family:'Poppins';
+}
+#card p{font-family:'Open Sans';
+    color: hsl(208, 11%, 55%);
+}
+#card{
+border-radius: 2rem;
+box-shadow: 1px 1px 5px 2px rgba(145, 145, 145, 0.185);
+}
+
+@media screen and (max-width:48em) {
+    #card img{padding-bottom: 3rem;}
+}
+.bottomcard .row{
+    box-shadow: 1px 1px 5px 3px rgba(77, 77, 77, 0.2);
+    border-radius: 2rem;
+    width: 500px;
+    background-color: #FFF;
+    padding-top:2rem;
+}
+div.bottomcard h3{
+    font-family: 'Poppins';
+}
+.bottomcard div button{
+    color:white;
+    font-weight:500;
+    background-color: hsl(322, 100%, 66%);
+    padding: 3% 15%;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 3px rgba(77, 77, 77, 0.2);
+    margin-bottom: 3rem;
+}
+.bottomcard .btn:hover{
+    background-color:hsl(322, 100%, 74%); 
+    color: white;
+}
+.bottomcard{
+        height: 100%;
+        background: linear-gradient(180deg, #FFF 50%, hsl(192, 100%, 9%) 50%);
+}
+
+.lastBlock{
+    background-color: hsl(192, 100%, 9%);
+    color:white;
+    padding-bottom: 1rem;
+}
+.lastBlock .logo{
+    margin:2rem 0 2rem 4rem;
+}
+.lastBlock .social{
+    margin:2rem 0;
+}
+.social svg:hover{
+    fill:hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+.lastBlock div a{
+    color:white;
+}
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+.attribution a {
+    color: hsl(300, 69%, 71%);
+  }
+  .attribution a:hover {
+    color: hsl(300, 56%, 81%)
+  }
